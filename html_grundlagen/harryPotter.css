@@ -1,0 +1,110 @@
+
+body, h1, h2, h3, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    color: #460c4f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4a2c2a;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #3e424d;
+}
+
+/* Paragraph Styles */
+p {
+    margin-bottom: 15px;
+}
+
+/* Link Styles */
+a {
+    color: #1a0dab;
+}
+
+a:hover {
+    color: #d34500;
+}
+
+/* Image Styles */
+img {
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Specific Classes and IDs */
+#about {
+    background-color: #eaeaea;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* List Styles */
+ul {
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4e342e;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+/* Custom Styles for Magical Feel */
+body {
+    background-image: url('background-parchment.jpg');
+    background-size: cover;
+    color: #46312a;
+}
+
+h1, h2, h3, p {
+    font-family: 'Merriweather', serif;
+}
+
+/* Enhance Link Hover Effect */
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
