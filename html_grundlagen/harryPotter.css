@@ -2,16 +2,19 @@
 body, h1, h2, h3, p, ul, li, a, img {
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    text-decoration: #2c2828;
     list-style: none;
 }
 
+
+
 body {
+
     font-family: 'Times New Roman', serif;
     background-color: #f5f5f5;
-    color: #333;
+    color: #5a5a5a;
     line-height: 1.6;
-    padding: 20px;
+    /*padding: 20px;*/
 }
 
 /* Header Styles */
@@ -22,8 +25,8 @@ h1 {
 }
 
 h2 {
-    color: #4a2c2a;
-    margin-bottom: 10px;
+    color: #b2a3a2;
+    /* margin-bottom: 10px;*/
 }
 
 h3 {
@@ -32,12 +35,15 @@ h3 {
 
 /* Paragraph Styles */
 p {
-    margin-bottom: 15px;
+
+    color: black;
+    margin-bottom: 1px;
+
 }
 
 /* Link Styles */
 a {
-    color: #1a0dab;
+    color: #d8c9c9;
 }
 
 a:hover {
@@ -59,10 +65,12 @@ img {
 
 /* List Styles */
 ul {
-    margin-top: 10px;
+    color: whitesmoke;
+    margin-top: 5px;
 }
 
 li {
+    color: whitesmoke;
     margin-bottom: 5px;
 }
 
@@ -84,26 +92,27 @@ th {
     color: white;
 }
 
-/* Footer Styles */
+
 footer {
     text-align: center;
     margin-top: 30px;
     padding-top: 20px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #d7d1d1;
 }
 
-/* Custom Styles for Magical Feel */
+
 body {
-    background-image: url('background-parchment.jpg');
+    background-image: url('harrypotter2000x3000.jpg');
     background-size: cover;
-    color: #46312a;
+    backdrop-filter: blur(7px);
 }
 
 h1, h2, h3, p {
     font-family: 'Merriweather', serif;
+    /* font-size: 1em;*/
 }
 
-/* Enhance Link Hover Effect */
+
 a:hover {
     text-decoration: underline;
     font-weight: bold;
