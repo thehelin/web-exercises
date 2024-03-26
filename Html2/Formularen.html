@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benutzerregistrierungsformular</title>
+    <link rel="stylesheet" href="Formularen.css">
+</head>
+<body>
+
+<h2>Registrierungsformular</h2>
+
+<form action="#" method="post">
+    <div class="form-group">
+        <label for="firstName">Vorname *</label>
+        <input type="text" id="firstName" name="firstName" required>
+    </div>
+    <div class="form-group">
+        <label for="lastName">Nachname *</label>
+        <input type="text" id="lastName" name="lastName" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Passwort *</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <div class="form-group">
+        <label for="phoneNumber">Telefonnummer</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber">
+    </div>
+    <div class="form-group">
+        <label for="birthdate">Geburtsdatum</label>
+        <input type="date" id="birthdate" name="birthdate">
+    </div>
+    <div class="form-group">
+        <label for="education">Höchster Schulabschluss</label>
+        <select id="education" name="education">
+            <option value="">Bitte wählen</option>
+            <option value="none">Kein Abschluss</option>
+            <option value="highschool">Abitur</option>
+            <option value="bachelor">Bachelor</option>
+            <option value="master">Master</option>
+            <option value="phd">Promotion</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Geschlecht</label>
+        <input type="radio" id="male" name="gender" value="männlich">
+        <label for="male">Männlich</label>
+        <input type="radio" id="female" name="gender" value="weiblich">
+        <label for="female">Weiblich</label>
+        <input type="radio" id="diverse" name="gender" value="divers">
+        <label for="diverse">Divers</label>
+    </div>
+    <!-- Additional fields -->
+    <div class="form-group">
+        <label for="newsletter">Newsletter abonnieren</label>
+        <input type="checkbox" id="newsletter" name="newsletter">
+    </div>
+    <div class="form-group">
+        <label for="comment">Kommentar</label>
+        <textarea id="comment" name="comment"></textarea>
+    </div>
+    <input type="submit" value="Registrieren">
+    <input type="reset" value="Zurücksetzen">
+</form>
+
+</body>
+</html>
