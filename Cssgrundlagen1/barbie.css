@@ -1,0 +1,44 @@
+.barbie {
+    position: relative;
+    width: 389px;
+    height: 290px;
+    border: 2px solid #fff;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+
+}
+
+.barbie div {
+    background-image: url("../HarryPotter/Download.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    border: 3px solid #191a1c;
+}
+
+.img1 {
+    top: 0;
+    left: 0;
+}
+
+.img2 {
+    top: 0;
+    right: 0;
+}
+
+.img3 {
+    bottom: 0;
+    left: 0;
+}
+.img4 {
+    bottom: 0;
+    right: 0;
+}
+.img5 {
+    top: 25%;
+    left: 25%;
+}
