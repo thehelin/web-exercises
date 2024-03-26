@@ -1,0 +1,78 @@
+/* tag selektor */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: rgb(58, 27, 27);
+    background-image: url('maxxxx.jpg');
+    background-size: cover;
+    backdrop-filter: blur(7px);
+}
+
+/*id selektor*/
+#main-header h1 {
+    color: rgb(164, 24, 40);
+    position: relative;
+    text-align: center;
+}
+
+/*class selector*/
+.bio {
+    background-color: rgba(240, 240, 240, 0.16);
+}
+
+/*Pseudo class*/
+.stats li:hover {
+    font-weight: bold;
+    color: #b41d1d;
+}
+
+/*pseudo element*/
+.stats li:before {
+    content: "<" ">";
+    color: rgba(255, 0, 0, 0.75);
+}
+
+/* combination child selector*/
+section.stats ul li {
+    color: #a89992;
+    margin-bottom: 5px;
+}
+
+/* combination child selector*/
+footer > p {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.9em;
+}
+
+/* combination adjacent selector*/
+.bio + .stats {
+    margin-top: 20px;
+}
+
+/* !important statment*/
+.win {
+    color: #ffffff;
+!important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #232222;
+    color: #f0f0f0;
+}
+
+th {
+    background-color: rgba(186, 69, 11, 0.29);
+    color: #ffffff;
+}
+
+h2{
+    color: #f0f0f0;
+}
